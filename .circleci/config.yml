@@ -5,5 +5,5 @@ workflows:
   deploy:
     jobs:
       - docker/publish:
-          image: jakousa/docker-hy
+          image: liorlieb7/docker-hy.github.io
           tag: 'latest'
